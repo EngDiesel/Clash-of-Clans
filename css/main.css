@@ -1,0 +1,244 @@
+/*
+==================================================
+================= Login Page =====================
+==================================================
+
+*/
+
+.login-body {
+	background-color: #d3f5f1;
+}
+
+.card.login-card {
+	background-color: rgba(244, 244, 244, 0.7);
+	max-width: 80%;
+	margin: auto;
+	margin-top: 3%;
+
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login-img-container {
+	width: 40%;
+	padding: 0 2rem 2rem;
+	margin: auto;
+}
+
+.login-form {
+	max-width: 60%;
+	margin: auto;
+}
+
+.login-btn {
+	background-color: #c01903;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 0.2rem;
+}
+
+.login-btn:hover {
+	background-color: #920f00;
+}
+
+.link-container {
+	padding: 1rem;
+	margin: auto;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+input {
+	transition: 0.5s ease-in-out;
+}
+
+input:hover {
+	box-shadow: 0 0 15px #46b8e3;
+}
+
+/*
+==================================================
+================= Home Page =====================
+==================================================
+*/
+
+/*-------- Global --------*/
+
+.img-container img {
+	max-width: 100%;
+	padding: 10%;
+}
+
+.header {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.header h1 {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #cd2105;
+	padding-bottom: 1%;
+}
+
+.btn {
+	cursor: pointer;
+	background-color: #cd2105;
+	border-color: #cd2105;
+	color: aliceblue;
+}
+
+.btn:hover {
+	background-color: #791100;
+	border-color: #791100;
+}
+
+/*-------- Jumbotron --------*/
+
+.jumbotron {
+	background-image: url(../img/jumbotron-back.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 0;
+	margin: 0
+}
+
+.jumbotron .lead {
+	font-weight: normal
+}
+
+.jumbotron-overlay {
+	color: #2d2d2d;
+	margin-bottom: 0;
+	font-weight: bold;
+	padding: 10% 20px;
+	margin: 0;
+}
+
+.jumbotron h1 {
+	margin-bottom: 30px;
+}
+
+/*-------- Carousel ----------*/
+
+.carousel-container {
+	background-color: #2d2d3c;
+	padding: 0 20px 0;
+	text-align: center;
+}
+
+.img-fluid {
+	margin: auto
+}
+
+.carousel img {
+	height: 550px
+}
+
+
+/*-------- Section ----------*/
+
+.section {
+	padding: 50px 0;
+	text-align: left;
+	color: #2d2d3d
+}
+
+.section .img-container {
+	margin: auto;
+	text-align: center;
+}
+
+.section .img-container img {
+	height: 150px;
+	margin: auto;
+	padding: 0;
+	max-width: inherit;
+}
+
+/*--------- Modal ---------*/
+
+.modal .modal-header h5.modal-title {
+	margin: auto;
+}
+
+/*============= Videos ==============*/
+
+.troops {
+	background-color: #eee;
+	padding-bottom: 5%;
+}
+
+.troops .imgCenter {
+	margin: 20px auto;
+	display: block;
+	margin: auto;
+	max-height: 250px;
+	border-radius: 20px;
+	transition: 0.3s ease-in-out;
+}
+
+.troops .imgCenter:hover {
+	box-shadow: 0 0 10px 3px #ccc;
+	transform: translate(0, -5px) scale(1.01, 1.01);
+}
+
+.troops .img-container {
+	padding: 0px;
+	margin: 10px auto;
+}
+
+.troops .btn-more {
+	margin: auto;
+	display: block;
+	width: 50%;
+}
+
+/*---------- Footer -----------*/
+
+footer h1 {
+	color: aliceblue;
+}
+
+footer ul {
+	text-align: center;
+	margin-top: 60px;
+	padding: 0;
+	font-size: 3rem;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 10px;
+	color: aliceblue;
+}
+
+footer .google-plus {
+	color: firebrick
+}
+
+footer .youtube {
+	color: aliceblue;
+}
+
+footer .facebook {
+	color: dodgerblue
+}
+
+footer ul li {
+	transition: 0.5s ease-in-out;
+}
+
+footer ul li:hover {
+	transform: scale(1.05, 1.05) translate(0, -5px);
+}
+
+@media screen and (max-width: 800px) {
+	.section {
+		text-align: center;
+	}
+}
